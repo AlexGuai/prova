@@ -20,7 +20,8 @@ class ListaServizi():
                 self.aggiungi_servizio(Servizio(servizio_iniziale["id"],
                                                 servizio_iniziale["nome"],
                                                 servizio_iniziale["tipo"],
-                                                servizio_iniziale["posizione"]))
+                                                servizio_iniziale["posizione"],
+                                                servizio_iniziale["prezzo"]))
 
     def aggiungi_servizio(self, servizio):
         self.lista_servizi.append(servizio)

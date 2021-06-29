@@ -15,9 +15,9 @@ class VistaHome(QWidget):
 
         self.setLayout(grid_layout)
         self.resize(400, 300)
-        self.setWindowTitle("Gestore Piscina Comunale")
+        self.setWindowTitle("Gestore Stabilimento")
     '''
-    questa funzione restituisce un bottone generico dato il titolo
+        questa funzione restituisce un bottone generico dato il titolo
     '''
     def get_generic_button(self, titolo, on_click=None):
         button = QPushButton(titolo)

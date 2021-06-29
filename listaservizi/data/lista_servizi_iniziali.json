@@ -1,32 +1,44 @@
 [
   {
-    "id": "corsia_1",
-    "nome": "Prima Corsia",
-    "tipo": "Corsia",
-    "posizione": "1"
+    "id": "ombrellone_1",
+    "nome": "Ombrellone prima fila",
+    "tipo": "Ombrellone",
+    "posizione": "Prima fila",
+    "prezzo": 30.0
   },
   {
-    "id": "corsia_2",
-    "nome": "Seconda Corsia",
-    "tipo": "Corsia",
-    "posizione": "2"
+    "id": "ombrellone_2",
+    "nome": "Ombrellone seconda fila",
+    "tipo": "Ombrellone",
+    "posizione": "Seconda fila",
+    "prezzo": 25.0
   },
   {
-    "id": "corsia_3",
-    "nome": "Terza Corsia",
-    "tipo": "Corsia",
-    "posizione": "3"
+    "id": "ombrellone_3",
+    "nome": "Ombrellone terza fila",
+    "tipo": "Ombrellone",
+    "posizione": "Terza fila",
+    "prezzo": 20.0
   },
   {
-    "id": "corsia_4",
-    "nome": "Quarta Corsia",
-    "tipo": "Corsia",
-    "posizione": "4"
+    "id": "ombrellone_4",
+    "nome": "Ombrellone quarta fila",
+    "tipo": "Ombrellone",
+    "posizione": "Quarta fila",
+    "prezzo": 15.0
   },
   {
-    "id": "corsia_5",
-    "nome": "Quinta Corsia",
-    "tipo": "Corsia",
-    "posizione": "5"
+    "id": "cabina_1",
+    "nome": "Prima cabina",
+    "tipo": "Cabina",
+    "posizione": "1",
+    "prezzo": 50.0
+  },
+  {
+    "id": "cabina_2",
+    "nome": "Seconda cabina",
+    "tipo": "Cabina",
+    "posizione": "2",
+    "prezzo": 50.0
   }
 ]
