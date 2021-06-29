@@ -1,6 +1,5 @@
 class ControlloreServizio():
     def __init__(self, servizio):
-        super(ControlloreServizio, self).__init__()
         self.model = servizio
 
     def get_nome_servizio(self):

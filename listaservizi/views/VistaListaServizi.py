@@ -27,7 +27,7 @@ class VistaListaServizi(QWidget):
 
         buttons_layout = QVBoxLayout()
         open_button = QPushButton("Apri")
-        open_button.clicked.connect(self.show_selected_info())
+        open_button.clicked.connect(self.show_selected_info)
         buttons_layout.addWidget(open_button)
         buttons_layout.addStretch()
         h_layout.addLayout(buttons_layout)

@@ -12,7 +12,7 @@ class VistaServizio(QWidget):
 
         v_layout = QVBoxLayout()
         label_nome = QLabel(self.controller.get_nome_servizio())
-        font_nome = label_nome()
+        font_nome = label_nome.font()
         font_nome.setPointSize(30)
         label_nome.setFont(font_nome)
         v_layout.addWidget(label_nome)
@@ -49,4 +49,4 @@ class VistaServizio(QWidget):
         h_layout.addLayout(v_layout2)
 
         self.setLayout(h_layout)
-        self.windowTitle(servizio.nome)
+        self.setWindowTitle(servizio.nome)
