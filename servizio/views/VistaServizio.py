@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout, QLabel, QSpacerItem, QSizePolicy
 
+
 from servizio.controllore.ControlloreServizio import ControlloreServizio
 
 
@@ -11,7 +12,7 @@ class VistaServizio(QWidget):
         h_layout = QHBoxLayout()
 
         v_layout = QVBoxLayout()
-        label_nome = QLabel(self.controller.get_nome_servizio())
+        label_nome = QLabel("Nome: {}".format(self.controller.get_nome_servizio()))
         font_nome = label_nome.font()
         font_nome.setPointSize(30)
         label_nome.setFont(font_nome)
