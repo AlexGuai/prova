@@ -1,12 +1,12 @@
 from PyQt5.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout, QLabel, QSpacerItem, QSizePolicy
 
 
-from servizio.controllore.ControlloreServizio import ControlloreServizio
+from servizio.controller.ControlloreServizio import ControlloreServizio
 
 
 class VistaServizio(QWidget):
     def __init__(self, servizio, parent=None,):
-        super(VistaServizio, self).__init__()
+        super(VistaServizio, self).__init__(parent)
         self.controller = ControlloreServizio(servizio)
 
         h_layout = QHBoxLayout()
